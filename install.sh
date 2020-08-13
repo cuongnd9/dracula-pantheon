@@ -6,13 +6,13 @@ function install_theme {
   sudo apt install -y dconf-tools
   
   # Color Scheme for Pantheon terminal
-  gsettings set io.elementary.terminal.settings palette '#011627:#EF5350:#22da6e:#addb67:#82aaff:#c792ea:#21c7a8:#ffffff:#575656:#ef5350:#22da6e:#ffeb95:#82aaff:#c792ea:#7fdbca:#ffffff'
-  
-  gsettings set io.elementary.terminal.settings background '#011627'
+  gsettings set io.elementary.terminal.settings palette '#4d4d4d:#ff5555:#50fa7b:#f1fa8c:#bd93f9:#ff79c6:#8be9fd:#bbbbbb:#555555:#ff5555:#50fa7b:#f1fa8c:#bd93f9:#ff79c6:#8be9fd:#ffffff'
+    
+  gsettings set io.elementary.terminal.settings background '#282a36'
 
-  gsettings set io.elementary.terminal.settings foreground '#d6deeb'
+  gsettings set io.elementary.terminal.settings foreground '#f8f8f2'
 
-  gsettings set io.elementary.terminal.settings cursor-color '#7e57c2'
+  gsettings set io.elementary.terminal.settings cursor-color '#f6f7ec'
 
 }
 
